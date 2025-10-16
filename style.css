@@ -1,1 +1,63 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    padding: 0 50px;
+    background: rgb(235, 201, 229);
+    justify-content: space-between;
+}
+.links{
+    display:flex;
+    gap: 40px;
+    font-size: 16px;
+    align-items: center;
+}
 
+a{
+    text-decoration: none;
+    color: deeppink;
+}
+
+a:hover {
+    color:blueviolet
+}
+
+#una {
+    width: 150px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, white, rgb(228, 165, 216));
+    height: 550px;
+}
+
+#picture{
+    width: 35%;
+    background: transparent;
+}
+
+.text{
+    max-width: 50%;
+    color: black;
+}
+
+.text h1{
+    font-size: 35px;
+    color: deeppink;
+}
+
+.text p{
+    font-size: 20px;
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+.text .highlight {
+    color: 
+}
